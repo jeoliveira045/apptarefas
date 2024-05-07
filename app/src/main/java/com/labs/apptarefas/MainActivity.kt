@@ -33,17 +33,6 @@ class MainActivity : ComponentActivity() {
         setContent {
             val navController = rememberNavController();
             ApptarefasTheme {
-//                TopAppBar(
-//                    modifier = Modifier.background(Purple700),
-//                    title = {
-//                        Text(
-//                            text = "Lista de Tarefas",
-//                            fontSize = 18.sp,
-//                            fontWeight = FontWeight.Bold,
-//                            color = WHITE
-//                        )
-//                    },
-//                )
 
                 NavHost(navController = navController, startDestination = "listaTarefas"){
                     composable(route = "listaTarefas"){
