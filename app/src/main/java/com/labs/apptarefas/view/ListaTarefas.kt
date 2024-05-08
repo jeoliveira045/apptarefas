@@ -20,6 +20,7 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.navigation.NavController
 import com.labs.apptarefas.R
+import com.labs.apptarefas.model.Tarefa
 import com.labs.apptarefas.ui.theme.BLACK
 import com.labs.apptarefas.ui.theme.Purple700
 import com.labs.apptarefas.ui.theme.WHITE
@@ -61,7 +62,28 @@ fun ListaTarefas(
         }
 
     ) {
-
+        var listaTarefas = mutableListOf(
+            Tarefa(
+                tarefa = "Tarefa 1",
+                descricao = "",
+                prioridade = 0
+            ),
+            Tarefa(
+                tarefa = "Tarefa 2",
+                descricao = "",
+                prioridade = 1
+            ),
+            Tarefa(
+                tarefa = "Tarefa 3",
+                descricao = "",
+                prioridade = 2
+            ),
+            Tarefa(
+                tarefa = "Tarefa 4",
+                descricao = "",
+                prioridade = 3
+            )
+        )
     }
 
 }
