@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "534882703716",
+    "project_id": "lista-de-tarefas-compose-a5af5",
+    "storage_bucket": "lista-de-tarefas-compose-a5af5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:534882703716:android:058c10463acd516b370271",
+        "android_client_info": {
+          "package_name": "com.labs.apptarefas"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCmGVtkVs_dnDiRIA3WEgRRzVWG_tYq_is"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

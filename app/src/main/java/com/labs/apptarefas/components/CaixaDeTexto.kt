@@ -45,15 +45,3 @@ fun CaixaDeTexto(
         )
     )
 }
-
-//@Composable
-//@Preview(name = "Preview")
-//private fun CaixaDeTextoPreview(){
-//    CaixaDeTexto(
-//        value = "Marcos",
-//        onValueChanged = {},
-//        modifier = Modifier.fillMaxWidth(),
-//        label = "Nome da tarefa",
-//        maxLines = 4
-//    )
-//}
